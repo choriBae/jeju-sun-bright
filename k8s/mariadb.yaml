@@ -17,7 +17,7 @@ spec:
         - name: mariadb
           # 여러분의 mariadb image 주소를 입력해주세요.
           #image: krmp-d2hub-idock.9rum.cc/dev-test/repo_fdd47d8ab95d
-		  image: krmp-d2hub-idock.9rum.cc/dev-test/repo_9b1e5470c173
+		  image: krmp-d2hub.9rum.cc/goorm/mariadb:latest
           env:
             - name: TZ
               value: Asia/Seoul
